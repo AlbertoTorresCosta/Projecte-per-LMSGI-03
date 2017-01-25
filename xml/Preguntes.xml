@@ -1,135 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <questions>
-    <question id='Primera'>
-        <type>text</type>
-        <text>Per què estudiar XML?</text>
-        <answer>És important per a tots els desenvolupadors de programari que tenguin una bona comprensió de XML.</answer>
-    </question>
-    <question id='Segunda'>
-        <type>select</type>
-        <text>Perqué utilitzem select multiple</text>
-        <option value="1">Per a fer-nos la vida més fàcil.</option>
-        <option value="2">Per a comprendre millor el llenguatge màquina.</option>
-        <option value="3">Per a complicar-nos la vida.</option>
-        <option value="4">Per aprendre coses noves.</option>
-        <option value="5">Per evolucionar professionalment.</option>
-        <answer>1</answer>
-        <input type='submit'>
-        </input>
-    </question>
-    <question id='Tercera'>
-        <type>select multiple</type>
-        <text>Què més és XML?</text>
-        <option value="1">XML significa Extensible Markup Language.</option>
-        <option value="2">XML és un llenguatge de marques molt similar a HTML.</option>
-        <option value="3">XML és una recomanació de la W3C.</option>
-        <option value="4">XML va ser dissenyat per emmagatzemar i transportar dades independent del programari i maquinari.</option>
-        <option value="5">XML va ser dissenyat per ser auto-descriptiu i alhora llegible per humà-i-màquina.</option>
-        <answer>5,5</answer>
-        <input type='submit'>
-        </input>
-    </question>
-    <question id='Cuarta'>
-        <type>checkbox</type>
-        <text>És necessari prestar atenció a l'hora d'aprendre XML?</text>
-        <p>
-            <input type="checkbox" name="S" value="SI">SI</input>
-        </p>
-        <p>
-            <input type="checkbox" name="N" value="NO">NO</input>
-        </p>
-        <p>
-            <input type="checkbox" name="Pot ser" value="Pot ser">Pot ser</input>
-        </p>
-        <p>
-            <answer>1</answer>
-            <input type="submit" value=" Enviar "></input>
-        </p>
-    </question>
-    <question id='Quinta'>
-        <type>radio</type>
-        <text>És necessari XML per a fer formularis?</text>
-        <input id="SI" type="radio" name="color" value="SI">
-        <label for="SI">SI</label>
-        </input>
-        <br>
-        <input id="NO" type="radio" name="color" value="NO">
-        <label for="NO">NO</label>
-        </input>
-        </br>
-        <br>
-        <input id="Pot ser" type="radio" name="color" value="Pot ser">
-        <answer>1</answer>
-        <label for="Pot ser">Pot ser</label>
-        </input>
-        </br>
-        <input type="submit"></input>
-    </question>
-    <question id='Sexta'>
-        <type>select</type>
-        <text>Perqué utilitzem select multiple</text>
-        <option value="1">Per a fer-nos la vida més fàcil.</option>
-        <option value="2">Per a comprendre millor el llenguatge màquina.</option>
-        <option value="3">Per a complicar-nos la vida.</option>
-        <option value="4">Per aprendre coses noves.</option>
-        <option value="5">Per evolucionar professionalment.</option>
-        <answer>1</answer>
-        <input type='submit'>
-        </input>
-    </question>
-    <question id='Séptima'>
-        <type>checkbox</type>
-        <text>És necessari prestar atenció a l'hora d'aprendre XML?</text>
-
-        <p>
-            <input type="checkbox" name="S" value="SI">SI</input>
-        </p>
-        <p>
-            <input type="checkbox" name="N" value="NO">NO</input>
-        </p>
-        <p>
-            <input type="checkbox" name="PS" value="Pot ser">Pot ser</input>
-        </p>
-        <p>
-            <answer>1</answer>
-            <input type="submit" value=" Enviar "></input>
-        </p>
-    </question>
-    <question id='Octava'>
-        <type>radio</type>
-        <text>Tenint en compte què pot fer XML, podem emprar-lo per detallar la compra d'aliments d'un restaurant?</text>
-
-        <input id="SI" type="radio" name="OctavaRadio" value="SI">
-        <label for="SI">SI</label>
-        </input>
-        <br>
-        <input id="NO" type="radio" name="OctavaRadio" value="NO">
-        <label for="NO">NO</label>
-        </input>
-        </br>
-        <br>
-        <input id="Pot ser" type="radio" name="OctavaRadio" value="Pot ser">
-        <label for="Pot ser">Pot ser</label>
-        </input>
-        </br>
-        <answer>1</answer>
-        <input type="submit"></input>
-    </question>
-    <question id='Novena'>
-        <type>text</type>
-        <text>Necessitem alguna cosa més a banda de xml per fer que funcioni de manera correcta i sigui atractiu visualment?</text>
-        <answer>Si</answer>
-    </question>
-    <question id='Décima'>
-        <type>select multiple</type>
-        <text>Què més necessitem a banda d'un xml?</text>
-        <option value="1">Necessitem que sigui atractiu visualment amb CSS.</option>
-        <option value="2">Necessitem Javascript.</option>
-        <option value="3">Necessitem dissenyar dins el nostre cap l'objectiu que volem aconseguir.</option>
-        <option value="4">Necessitem imatges per acompanyar el disseny.</option>
-        <option value="5">Necessitem realitzar moltes proves fins aconseguir el resultat que esperàvem.</option>
-        <answer>5,5</answer>
-        <input type='submit'>
-        </input>
-    </question>
+	<question id='Primera'>
+		<type>text</type>
+		<title>Per què estudiar XML?</title>
+		<answer>És important per a tots els desenvolupadors de programari que tenguin una bona comprensió de XML.</answer>
+	</question>
+	<question id='Segunda'>
+		<type>select</type>
+		<title>Perqué utilitzem select multiple.</title>
+		<option>a) Per a fer-nos la vida més fàcil.</option>
+		<option>b)Per a comprendre millor el llenguatge màquina.</option>
+		<option>c) Per a complicar-nos la vida.</option>
+		<option>d) Per aprendre coses noves.</option>
+		<option>e) Per evolucionar professionalment.</option>
+		<answer>1</answer>
+	</question>
+	<question id='Tercera'>
+		<type>select multiple</type>
+		<title>Què més és XML?</title>
+		<option>a) XML significa Extensible Markup Language.</option>
+		<option>b) XML és un llenguatge de marques molt similar a HTML.</option>
+		<option>c) XML és una recomanació de la W3C.</option>
+		<option>d) XML va ser dissenyat per emmagatzemar i transportar dades independent del programari i maquinari.</option>
+		<option>e) XML va ser dissenyat per ser auto-descriptiu i alhora llegible per humà-i-màquina.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+		<answer>4</answer>
+		<answer>5</answer>
+	</question>
+	<question id='Cuarta'>
+		<type>checkbox</type>
+		<title>És necessari prestar atenció a l'hora d'aprendre XML?</title>
+		<option>a) SI.</option>
+		<option>b) NO.</option>
+		<option>c) Pot ser.</option>
+		<answer>1</answer>
+	</question>
+	<question id='Quinta'>
+		<type>radio</type>
+		<title>És necessari XML per a fer formularis?</title>
+		<option>a) SI.</option>
+		<option>b) NO.</option>
+		<option>c) Pot ser.</option>
+		<answer>1</answer>
+	</question>
+	<question id='Sexta'>
+		<type>select</type>
+		<title>Perqué utilitzem select multiple</title>
+		<option>a) Per a fer-nos la vida més fàcil.</option>
+		<option>b) Per a comprendre millor el llenguatge màquina.</option>
+		<option>c) Per a complicar-nos la vida.</option>
+		<option>d) Per aprendre coses noves.</option>
+		<option>e) Per evolucionar professionalment.</option>
+		<answer>1</answer>
+	</question>
+	<question id='Séptima'>
+		<type>checkbox</type>
+		<title>És necessari prestar atenció a l'hora d'aprendre XML?</title>
+		<option>a) SI.</option>
+		<option>b) NO.</option>
+		<option>c) Pot ser.</option>
+		<option>d) Molt.</option>
+		<answer>1</answer>
+		<answer>4</answer>
+	</question>
+	<question id='Octava'>
+		<type>radio</type>
+		<title>Tenint en compte què pot fer XML, podem emprar-lo per detallar la compra d'aliments d'un restaurant?</title>
+		<option>a) SI.</option>
+		<option>b) NO.</option>
+		<option>c) Pot ser.</option>
+		<option>d) No cal utilitzar-la.</option>
+		<option>e) Restulta una eina molt útil.</option>
+		<answer>1</answer>
+		<answer>4</answer>
+	</question>
+	<question id='Novena'>
+		<type>text</type>
+		<title>Necessitem alguna cosa més a banda de xml per fer que funcioni de manera correcta i sigui atractiu visualment?</title>
+		<answer>Si</answer>
+	</question>
+	<question id='Décima'>
+		<type>select multiple</type>
+		<title>Què més necessitem a banda d'un xml?</title>
+		<option>a) Necessitem que sigui atractiu visualment amb CSS.</option>
+		<option>b) Necessitem Javascript.</option>
+		<option>c) nNecessitem dissenyar dins el nostre cap l'objectiu que volem aconseguir.</option>
+		<option>d) Necessitem imatges per acompanyar el disseny.</option>
+		<option>e) Necessitem realitzar moltes proves fins aconseguir el resultat que esperàvem.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+		<answer>4</answer>
+		<answer>5</answer>
+	</question>
 </questions>
