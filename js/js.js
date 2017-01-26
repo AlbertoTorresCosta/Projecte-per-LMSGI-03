@@ -1,14 +1,8 @@
-var xhttp = new XMLHttpRequest();
+var parser, xmlDoc;
+var text = Preguntes.xml;
 
-xhttp.onreadystatechange = function() {
- if (this.readyState == 4 && this.status == 200) {
-  gestionarXml(this);
- }
-};
-xhttp.open("GET", "Preguntes.xml", true);
-xhttp.send();
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"title/xml");
 
-function gestionarXml(dadesXml){
-var xmlDoc = dadesXml.responseXML;
-
-}
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
