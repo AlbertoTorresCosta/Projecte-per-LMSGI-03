@@ -5,7 +5,7 @@ xhttp.onreadystatechange = function() {
   gestionarXml(this);
  }
 };
-xhttp.open("GET", "xml/Preguntes.xml", true);
+xhttp.open("GET", "Preguntes.xml", true);
 xhttp.send();
 
 function gestionarXml(dadesXml){
