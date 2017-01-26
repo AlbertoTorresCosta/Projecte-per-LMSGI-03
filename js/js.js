@@ -17,10 +17,10 @@ window.onload = function(){
  formElement=document.getElementById('myform');
  formElement.onsubmit=function(){
   var s=formElement.elements[0].value; 
-  if (s==secret) alert('Número correcto');
+  if (s==secret) alert('Has acertado la pregunta');
   else {
-    if (s>secret) alert('te has pasado');
-    else alert('te has quedado corto');
+    if (s>secret) alert('Has fallado la pregunta');
+    else alert('Error');
   }
   return false;
  }
