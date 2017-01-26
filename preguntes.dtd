@@ -5,4 +5,4 @@
 <!ELEMENT type (#PCDATA)>
 <!ELEMENT text (#PCDATA)>
 <!ELEMENT option (#PCDATA)>
-<!ELEMENT answer (#PCDATA)>
+<!ELEMENT answer (answer+)>
