@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <questions>
-	<question id='Primera'>
+	<question id='nom001'>
 		<type>text</type>
 		<title>Per què estudiar XML?</title>
 		<answer>És important per a tots els desenvolupadors de programari que tenguin una bona comprensió de XML.</answer>
 	</question>
-	<question id='Segunda'>
+	<question id='nom002'>
 		<type>select</type>
 		<title>Perqué utilitzem select multiple.</title>
 		<option>a) Per a fer-nos la vida més fàcil.</option>
@@ -15,7 +15,7 @@
 		<option>e) Per evolucionar professionalment.</option>
 		<answer>1</answer>
 	</question>
-	<question id='Tercera'>
+	<question id='nom003'>
 		<type>select multiple</type>
 		<title>Què més és XML?</title>
 		<option>a) XML significa Extensible Markup Language.</option>
@@ -29,7 +29,7 @@
 		<answer>4</answer>
 		<answer>5</answer>
 	</question>
-	<question id='Cuarta'>
+	<question id='nom004'>
 		<type>checkbox</type>
 		<title>És necessari prestar atenció a l'hora d'aprendre XML?</title>
 		<option>a) SI.</option>
@@ -37,7 +37,7 @@
 		<option>c) Pot ser.</option>
 		<answer>1</answer>
 	</question>
-	<question id='Quinta'>
+	<question id='nom005'>
 		<type>radio</type>
 		<title>És necessari XML per a fer formularis?</title>
 		<option>a) SI.</option>
@@ -45,7 +45,7 @@
 		<option>c) Pot ser.</option>
 		<answer>1</answer>
 	</question>
-	<question id='Sexta'>
+	<question id='nom006'>
 		<type>select</type>
 		<title>Perqué utilitzem select multiple</title>
 		<option>a) Per a fer-nos la vida més fàcil.</option>
@@ -55,7 +55,7 @@
 		<option>e) Per evolucionar professionalment.</option>
 		<answer>1</answer>
 	</question>
-	<question id='Séptima'>
+	<question id='nom007'>
 		<type>checkbox</type>
 		<title>És necessari prestar atenció a l'hora d'aprendre XML?</title>
 		<option>a) SI.</option>
@@ -65,7 +65,7 @@
 		<answer>1</answer>
 		<answer>4</answer>
 	</question>
-	<question id='Octava'>
+	<question id='nom008'>
 		<type>radio</type>
 		<title>Tenint en compte què pot fer XML, podem emprar-lo per detallar la compra d'aliments d'un restaurant?</title>
 		<option>a) SI.</option>
@@ -76,12 +76,12 @@
 		<answer>1</answer>
 		<answer>4</answer>
 	</question>
-	<question id='Novena'>
+	<question id='nom009'>
 		<type>text</type>
 		<title>Necessitem alguna cosa més a banda de xml per fer que funcioni de manera correcta i sigui atractiu visualment?</title>
 		<answer>Si</answer>
 	</question>
-	<question id='Décima'>
+	<question id='nom010'>
 		<type>select multiple</type>
 		<title>Què més necessitem a banda d'un xml?</title>
 		<option>a) Necessitem que sigui atractiu visualment amb CSS.</option>
