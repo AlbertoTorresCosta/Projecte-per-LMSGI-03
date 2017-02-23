@@ -11,4 +11,4 @@ URL github: https://github.com/AlbertoTorresCosta/Projecte-per-LMSGI-03
 URL rawgit: https://cdn.rawgit.com/AlbertoTorresCosta/Projecte-per-LMSGI-03/3082d8ea/index.html
 
 
-**Este documento, y el proyecto, ha sido puesto en práctica con muchos cambios y pruebas.**
+**El proyecto, ha sido puesto en práctica con muchos cambios y pruebas. Las preguntas se han escogido al azar.**
