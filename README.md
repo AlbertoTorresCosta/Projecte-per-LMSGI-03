@@ -7,7 +7,8 @@ Versión maquetada a orientación de adquirir nuevos conocimientos por parte del
 * Js: con el javascript necesario para dejar caer la nave y parar cuando llega a un límite.
 * xml: Preguntas.xml
 
-URL: https://github.com/AlbertoTorresCosta/Projecte-per-LMSGI-03
+URL github: https://github.com/AlbertoTorresCosta/Projecte-per-LMSGI-03
+URL rawgit:
 
 
 **Este documento, y el proyecto, ha sido puesto en práctica con muchos cambios y pruebas.**
