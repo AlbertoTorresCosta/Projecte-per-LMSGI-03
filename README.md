@@ -8,7 +8,7 @@ Versión maquetada a orientación de adquirir nuevos conocimientos por parte del
 * xml: Preguntas.xml
 
 URL github: https://github.com/AlbertoTorresCosta/Projecte-per-LMSGI-03
-URL rawgit:
+URL rawgit: https://cdn.rawgit.com/AlbertoTorresCosta/Projecte-per-LMSGI-03/3082d8ea/index.html
 
 
 **Este documento, y el proyecto, ha sido puesto en práctica con muchos cambios y pruebas.**
